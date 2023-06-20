@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       isEdit: false,
-      newBody: '',
+      newBody: this.task.body,
     };
   },
   methods: {
@@ -73,7 +73,8 @@ export default {
   border-radius: 5px;
   max-width: 800px;
   width: 100%;
-  min-width: 420px;
+  min-width: 350px;
+  transition: 0.2s;
 
   @media (max-width: 750px) {
     flex-direction: column;
@@ -89,7 +90,7 @@ export default {
 
   * {
     width: 100%;
-    min-width: 125px;
+    min-width: 105px;
   }
 
   @media (max-width: 750px) {
@@ -99,6 +100,7 @@ export default {
 
     * {
       width: 25%;
+      padding: 3px 10px;
     }
   }
 }

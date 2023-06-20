@@ -18,7 +18,7 @@ export default {
   mounted() {
     this.vantaEffect = NET({
       el: this.$refs.vantaRef,
-      color: 'white ',
+      color: 'white',
       backgroundColor: '#13132f',
       THREE: THREE,
       showDots: false,
@@ -59,6 +59,10 @@ export default {
   h2 {
     font-size: 18px;
     color: white;
+
+    @media (max-width: 650px) {
+      max-width: 350px;
+    }
   }
 }
 </style>
