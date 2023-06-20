@@ -90,7 +90,7 @@ export default {
 
   * {
     width: 100%;
-    min-width: 125px;
+    min-width: 115px;
   }
 
   @media (max-width: 750px) {

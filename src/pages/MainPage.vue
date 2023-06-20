@@ -1,5 +1,5 @@
 <template>
-  <div class="vanta" ref="vantaRef">
+  <div @mousemove.prevent class="vanta" ref="vantaRef">
     <nav-bar></nav-bar>
     <div class="header-main">
       <h1>ToDo List</h1>
