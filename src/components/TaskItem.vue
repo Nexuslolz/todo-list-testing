@@ -73,7 +73,7 @@ export default {
   border-radius: 5px;
   max-width: 800px;
   width: 100%;
-  min-width: 420px;
+  min-width: 350px;
   transition: 0.2s;
 
   @media (max-width: 750px) {

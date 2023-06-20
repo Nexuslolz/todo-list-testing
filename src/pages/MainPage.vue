@@ -59,6 +59,10 @@ export default {
   h2 {
     font-size: 18px;
     color: white;
+
+    @media (max-width: 650px) {
+      max-width: 350px;
+    }
   }
 }
 </style>
