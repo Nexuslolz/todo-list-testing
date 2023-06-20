@@ -1,4 +1,4 @@
-# quik-deal-test
+# todo-list-test
 
 ## Project setup
 ```
