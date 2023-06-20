@@ -18,7 +18,7 @@ export default {
   mounted() {
     this.vantaEffect = NET({
       el: this.$refs.vantaRef,
-      color: 'white ',
+      color: 'white',
       backgroundColor: '#13132f',
       THREE: THREE,
       showDots: false,

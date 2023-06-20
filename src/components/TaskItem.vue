@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       isEdit: false,
-      newBody: '',
+      newBody: this.task.body,
     };
   },
   methods: {
@@ -74,6 +74,7 @@ export default {
   max-width: 800px;
   width: 100%;
   min-width: 420px;
+  transition: 0.2s;
 
   @media (max-width: 750px) {
     flex-direction: column;

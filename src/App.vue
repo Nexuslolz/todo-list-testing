@@ -16,6 +16,10 @@
   font-style: 'sans-serif';
   font-size: 20px;
   font-family: 'Montserrat', 'Arial', sans-serif;
+
+  @media (max-width: 650px) {
+    font-size: 1em;
+  }
 }
 
 .app {
