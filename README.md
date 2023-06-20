@@ -1,5 +1,8 @@
 # todo-list-test
 
+## Deploy link
+ - https://todo-list-testing-task.netlify.app
+
 ## Project setup
 ```
 npm install
