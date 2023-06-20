@@ -90,7 +90,7 @@ export default {
 
   * {
     width: 100%;
-    min-width: 115px;
+    min-width: 105px;
   }
 
   @media (max-width: 750px) {
@@ -100,6 +100,7 @@ export default {
 
     * {
       width: 25%;
+      padding: 3px 10px;
     }
   }
 }
