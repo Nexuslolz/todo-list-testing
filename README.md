@@ -1,7 +1,7 @@
 # todo-list-test
 
 ## Deploy link
- - https://todo-list-testing-task.netlify.app
+ - https://deploy--todo-list-testing-task.netlify.app/todo-list
 
 ## Project setup
 ```
